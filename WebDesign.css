@@ -6,7 +6,7 @@ body {
 }
 
 .main-container {
-    background-image: url("Bata.png");
+    background-image: url("C:\\Users\\Jaheng\\Documents\\Bata.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -34,9 +34,9 @@ body {
 
 .red-line {
     width: 4px;
-    height: 300px; 
+    height: 300px; /* Adjust this value to set the length of the vertical line */
     background-color: red;
-    margin-right: 0px; 
+    margin-right: 0px; /* Adjust this value to set the distance between the line and the text */
 	margin-left: 200px;
 }
 
@@ -59,3 +59,4 @@ body {
     background-color: #ffffff;
     margin-top: 10px;
 }
+
