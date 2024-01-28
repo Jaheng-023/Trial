@@ -7,7 +7,7 @@ body {
 
 .main-container {
     background-image: url("Bata.png");
-    background-size: center; /* Center the background */
+    background-size: contain; /* Center the background */
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
@@ -21,7 +21,6 @@ body {
     position: relative;
     text-align: center;
     padding: 20px;
-     margin-right: 100px;
 }
 
 .main-text {
