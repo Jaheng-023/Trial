@@ -40,8 +40,9 @@ body {
 
 /* New Text Styles */
 .new-text {
-    max-width: 600px;
-    margin-top: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40%;
+    font-weight: normal;
     color: #ffffff;
 }
 
