@@ -7,7 +7,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-image: url("Bata.png");
+    background-image: url("C:\\Users\\Jaheng\\Documents\\Bata.png");
     background-size: cover;
     background-position: right;
     width: 100vw;
@@ -38,21 +38,19 @@ body {
     margin-top: 10px;
 }
 
-@media (max-width: 600px) {
-    .background-container {
-        background-position: center;
-    }
+/* New Text Styles */
+.new-text {
+    max-width: 600px;
+    margin-top: 20px;
+    color: #ffffff;
+}
 
-    .text-row {
-        margin-bottom: 3px;
-    }
-
-    .normal-text {
-        font-size: 34px;
-    }
-
-    .line {
-        width: 50%;
-        margin-top: 5px;
-    }
+/* Red Vertical Line */
+.red-line {
+    width: 2px;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
