@@ -34,9 +34,9 @@ body {
 
 .red-line {
     width: 4px;
-    height: 300px; /* Adjust this value to set the length of the vertical line */
+    height: 300px; 
     background-color: red;
-    margin-right: 0px; /* Adjust this value to set the distance between the line and the text */
+    margin-right: 0px; 
 	margin-left: 200px;
 }
 
@@ -59,4 +59,3 @@ body {
     background-color: #ffffff;
     margin-top: 10px;
 }
-
