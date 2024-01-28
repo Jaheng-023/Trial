@@ -7,19 +7,19 @@ body {
 
 .main-container {
     background-image: url("Bata.png");
-    background-size: cover;
+    background-size: contain; /* Center the background */
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content in the main container */
+    align-items: center;
 }
 
 .header {
     position: relative;
-    text-align: center; /* Center text in the header */
+    text-align: center;
     padding: 20px;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .red-line {
     width: 4px;
-    height: 100px; /* Adjust height for better mobile view */
+    height: 100px;
     background-color: red;
     margin-right: 20px;
 }
@@ -50,6 +50,7 @@ body {
     font-family: 'Glacial Indifference', sans-serif;
     font-size: 18px;
     text-align: justify;
+}
 
 .line {
     width: 30%;
@@ -60,14 +61,10 @@ body {
 
 @media screen and (max-width: 767px) {
     .main-text {
-        font-size: 18px;
+        font-size: 20px; /* Increase font size for mobile */
     }
 
     .secondary-text {
-        font-size: 14px;
-    }
-
-    .red-line {
-        display: none;
+        font-size: 16px; /* Increase font size for mobile */
     }
 }
