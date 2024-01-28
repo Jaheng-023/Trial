@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.background-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url("Bata.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.text-row {
+    margin-bottom: 5px; 
+}
+
+.normal-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 51px; 
+    font-weight: normal;
+    color: #ffffff; 
+}
+
+.line {
+    width: 30%; 
+    height: 2px; 
+    background-color: #ffffff;
+    margin-top: 10px; 
+}
+
+
+@media (max-width: 600px) {
+    .text-row {
+        margin-bottom: 3px; 
+    }
+
+    .normal-text {
+        font-size: 34px; 
+    }
+
+    .line {
+        width: 50%; 
+        margin-top: 5px; 
+    }
+}
