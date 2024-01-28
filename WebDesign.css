@@ -1,34 +1,56 @@
 body {
     margin: 0;
-    overflow: hidden;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
 }
 
-.background-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.main-container {
     background-image: url("Bata.png");
     background-size: cover;
-    background-position: right;
-    width: 100vw;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 20px;
-    box-sizing: border-box;
 }
 
-.text-row {
-    margin-bottom: 5px;
+.header {
+    position: relative;
+    padding-left: 20px;
 }
 
-.normal-text {
+.main-text {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 51%;
-    font-weight: normal;
-    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.red-line {
+    width: 4px;
+    height: 300px; 
+    background-color: red;
+    margin-right: 0px; 
+	margin-left: 200px;
+}
+
+.content {
+    padding: 40px;
+}
+
+.contento { 
+	padding: 100px;
+}
+
+.secondary-text {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 30px;
 }
 
 .line {
@@ -36,22 +58,4 @@ body {
     height: 2px;
     background-color: #ffffff;
     margin-top: 10px;
-}
-
-/* New Text Styles */
-.new-text {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 40%;
-    font-weight: normal;
-    color: #ffffff;
-}
-
-/* Red Vertical Line */
-.red-line {
-    width: 2px;
-    height: 100%;
-    background-color: red;
-    position: absolute;
-    left: 0;
-    top: 0;
 }
