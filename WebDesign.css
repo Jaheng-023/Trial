@@ -14,44 +14,42 @@ body {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
+    align-items: center; /* Center content in the main container */
 }
 
 .header {
     position: relative;
-    padding-left: 70px;
+    text-align: center; /* Center text in the header */
+    padding: 20px;
 }
 
 .main-text {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
+    font-size: 24px;
     margin: 0;
 }
 
 .content-container {
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 
 .red-line {
     width: 4px;
-    height: 300px; 
+    height: 100px; /* Adjust height for better mobile view */
     background-color: red;
-    margin-right: 0px; 
-	margin-left: 200px;
+    margin-right: 20px;
 }
 
 .content {
-    padding: 40px;
-}
-
-.contento { 
-	padding: 100px;
+    padding: 20px;
 }
 
 .secondary-text {
     font-family: 'Glacial Indifference', sans-serif;
-    font-size: 30px;
-}
+    font-size: 18px;
+    text-align: justify;
 
 .line {
     width: 30%;
@@ -61,7 +59,15 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-    body {
-        zoom: 100%;
+    .main-text {
+        font-size: 18px;
+    }
+
+    .secondary-text {
+        font-size: 14px;
+    }
+
+    .red-line {
+        display: none;
     }
 }
