@@ -9,14 +9,14 @@ body {
     left: 0;
     background-image: url("Bata.png");
     background-size: cover;
-    background-position: right;
+    background-position: right; 
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    padding: 20px; 
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -26,13 +26,14 @@ body {
 
 .normal-text {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 68px; 
+    font-size: 68px;
     font-weight: normal;
     color: #ffffff; 
+    min-width: 200px; 
 }
 
 .line {
-    width: 25%; 
+    width: 25%;  
     height: 2px; 
     background-color: #ffffff; 
     margin-top: 10px; 
@@ -49,11 +50,12 @@ body {
     }
 
     .normal-text {
-        font-size: 34px; 
+        font-size: 34px;
+        min-width: 100px; 
     }
 
     .line {
         width: 50%; 
-        margin-top: 5px;
+        margin-top: 5px; 
     }
 }
