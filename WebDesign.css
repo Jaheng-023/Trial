@@ -26,14 +26,14 @@ body {
 
 .normal-text {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 68px;
+    font-size: 51px;
     font-weight: normal;
     color: #ffffff; 
     min-width: 200px; 
 }
 
 .line {
-    width: 25%;  
+    width: 30%;  
     height: 2px; 
     background-color: #ffffff; 
     margin-top: 10px; 
