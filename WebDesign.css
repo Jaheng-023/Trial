@@ -62,6 +62,6 @@ body {
 
 @media screen and (max-width: 767px) {
     body {
-        zoom: 150%;
+        zoom: 180%;
     }
 }
