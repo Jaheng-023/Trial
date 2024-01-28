@@ -6,50 +6,51 @@ body {
 }
 
 .main-container {
-    background-image: url("Bata.png");
-    background-size: contain; /* Center the background */
+    background-image: url("C:\\Users\\Jaheng\\Documents\\Bata.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .header {
     position: relative;
-    text-align: center;
-    padding: 20px;
+    padding-left: 70px;
 }
 
 .main-text {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 24px;
+    font-size: 40px;
     margin: 0;
 }
 
 .content-container {
     display: flex;
     align-items: center;
-    padding: 20px;
 }
 
 .red-line {
     width: 4px;
-    height: 100px;
+    height: 300px; /* Adjust this value to set the length of the vertical line */
     background-color: red;
-    margin-right: 20px;
+    margin-right: 0px; /* Adjust this value to set the distance between the line and the text */
+	margin-left: 200px;
 }
 
 .content {
-    padding: 20px;
+    padding: 40px;
+}
+
+.contento { 
+	padding: 100px;
 }
 
 .secondary-text {
     font-family: 'Glacial Indifference', sans-serif;
-    font-size: 18px;
-    text-align: justify;
+    font-size: 30px;
 }
 
 .line {
@@ -59,12 +60,3 @@ body {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 767px) {
-    .main-text {
-        font-size: 20px; /* Increase font size for mobile */
-    }
-
-    .secondary-text {
-        font-size: 16px; /* Increase font size for mobile */
-    }
-}
