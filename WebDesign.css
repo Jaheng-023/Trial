@@ -9,6 +9,7 @@ body {
     left: 0;
     background-image: url("Bata.png");
     background-size: cover;
+    background-position: right;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -25,20 +26,24 @@ body {
 
 .normal-text {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 51px; 
+    font-size: 68px; 
     font-weight: normal;
     color: #ffffff; 
 }
 
 .line {
-    width: 30%; 
+    width: 25%; 
     height: 2px; 
-    background-color: #ffffff;
+    background-color: #ffffff; 
     margin-top: 10px; 
 }
 
 
 @media (max-width: 600px) {
+    .background-container {
+        background-position: center; 
+    }
+
     .text-row {
         margin-bottom: 3px; 
     }
@@ -49,6 +54,6 @@ body {
 
     .line {
         width: 50%; 
-        margin-top: 5px; 
+        margin-top: 5px;
     }
 }
